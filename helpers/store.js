@@ -44,7 +44,6 @@ export const store = {
     username: document.querySelector(".log-in-username"),
     logInDiv: document.querySelector(".log-in"),
     table: document.querySelector(".table"),
-    main: document.querySelector(".main"),
   },
   touch: {
     touchStartX: null,
