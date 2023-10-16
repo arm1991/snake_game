@@ -11,3 +11,9 @@ export function checkLose(store) {
     }
     return state;
 }
+
+export function changeDisplayWhenTheGameEnds(dom) {
+    dom.restartDiv.style.display = "flex";
+    dom.fields.style.display = "none";
+    dom.table.style.display = "none";
+  }
